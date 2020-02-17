@@ -20,4 +20,3 @@ branches:
 
 script:
   - ./gradlew --continue clean build --scan -s -p modules/
-  -jdk_switcher use openjdk8
