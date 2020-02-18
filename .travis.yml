@@ -4,18 +4,19 @@ install: true
 
 dist: trusty
 jdk:
-  - oraclejdk13
+  - openjdk13
+  - openjdk-ea
 
 
 matrix:
   allow_failures:
-    - jdk: - oraclejdk13
+    - jdk: openjdk-ea
 
 branches:
   only:
   - master
     
+    
 
 script:
-  - ./gradlew --continue clean build --scan -s -p modules/
- 
+  - ./gradlew --continue clean build
