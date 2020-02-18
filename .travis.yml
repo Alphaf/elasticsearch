@@ -19,3 +19,4 @@ branches:
 
 script:
   - ./gradlew --continue clean build --scan -s -p modules/
+ 
