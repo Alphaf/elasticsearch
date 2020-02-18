@@ -14,9 +14,8 @@ matrix:
 
 branches:
   only:
-  - master
   - v7.6.0
     
 
 script:
-  - ./gradle --continue clean build --scan -s -p modules/
+  - ./gradlew --continue clean build --scan -s -p modules/
