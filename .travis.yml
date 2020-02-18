@@ -4,10 +4,7 @@ install: true
 
 dist: trusty
 jdk:
-  - openjdk11
-  - openjdk8
   - oraclejdk8
-  - oraclejdk11
 
 
 matrix:
