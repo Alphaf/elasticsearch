@@ -4,8 +4,8 @@ install: true
 
 dist: trusty
 jdk:
-  - openjdk13
-  - openjdk-ea
+  - oraclejdk13
+  - oraclejdk-ea
 
 
 matrix:
@@ -14,7 +14,7 @@ matrix:
 
 branches:
   only:
-  - v7.6.0
+  - master
     
 
 script:
