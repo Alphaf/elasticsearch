@@ -4,12 +4,13 @@ install: true
 
 dist: trusty
 jdk:
-  - oraclejdk8
+  - openjdk13
+  - openjdk-ea
 
 
 matrix:
   allow_failures:
-    - jdk: openjdk8
+    - jdk: openjdk-ea
 
 branches:
   only:
