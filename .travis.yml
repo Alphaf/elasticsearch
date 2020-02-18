@@ -16,6 +16,7 @@ branches:
   only:
   - master
     
+    
 
 script:
   - ./gradlew --continue clean build --scan -s -p modules/
