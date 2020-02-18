@@ -5,7 +5,7 @@ install: true
 dist: trusty
 jdk:
   - openjdk13
-  - openjdk-ea
+  - openjdk-8
 
 
 matrix:
